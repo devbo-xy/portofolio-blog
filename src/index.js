@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/index.css';
+import './style/tailwind.css';
 import App from './config/routes/App';
 import reportWebVitals from './reportWebVitals';
 
