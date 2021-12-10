@@ -65,10 +65,10 @@ function Navbar() {
                     </div>
                     <div className={`${isOpen ? 'block' : 'hidden'} item-center lg:flex justify-end flex-col lg:flex-row w-full py-5 lg:py-0`}>
                         <div className="flex flex-col lg:flex-row justify-center text-center">
-                            <a href="#about" className="block items-center text-lg font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">About</a>
-                            <a href="#team" className="block items-center text-lg font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Skills</a>
-                            <a href="#work" className="block items-center text-lg font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Portofolio</a>
-                            <a href="#work" className="block items-center text-lg font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Contact</a>
+                            <a href="#about" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">About</a>
+                            <a href="#team" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Skills</a>
+                            <a href="#work" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Portofolio</a>
+                            <a href="#work" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Contact</a>
                             <button onClick={() => {
                                 dark ? setDark(false) : setDark(true)
                                 dark ? selectTheme('light') : selectTheme('dark')
