@@ -6,11 +6,7 @@ module.exports = {
     extend: {
       colors: {
         shadow: '#ffffff73',
-        brand: '#FF8000',
-        primary: '#FBF5EE',
-        second: '#FFD07F',
-        darkfirst: '#2F2C29',
-        darksecond: '#383735',
+        brand: '#7A18C8',
         card: '#FFFFFF',
         textcard: '#595959',
         c1: '#9B39AE',
