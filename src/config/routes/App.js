@@ -1,8 +1,8 @@
-import Navbar from "../../pages/index";
+import Home from "../../pages/index";
 
 function App() {
   return (
-    <Navbar />
+    <Home />
   );
 }
 
