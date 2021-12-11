@@ -4,7 +4,7 @@ import Navbar from '../component/Navbar'
 function Home() {
     return (
         <Fragment>
-            {/* <Navbar /> */}
+            <Navbar />
 
         </Fragment>
     )
