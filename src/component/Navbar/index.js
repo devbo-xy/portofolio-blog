@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { useState, useEffect } from 'react'
-import Logo from '../../assets/Logo (5).svg'
+import Logo from '../../assets/Logo.svg'
 
 function Navbar() {
 
