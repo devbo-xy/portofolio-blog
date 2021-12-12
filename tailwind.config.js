@@ -18,6 +18,9 @@ module.exports = {
         'ivo': '#FFFFF0',
         'ow': '#F1FAFC',
         'io': '#FEFDFE',
+        'white1': '#FBFBFB',
+        'text': '#242424',
+        'text2': '#888888',
       },
       boxShadow: {
         '5xl': '12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset',
