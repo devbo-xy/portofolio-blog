@@ -32,7 +32,7 @@ function Navbar() {
 
     return (
         <Fragment>
-            <nav className="bg-io dark:bg-blue-200 w-full top-0 fixed shadow-lg z-10">
+            <nav className="bg-white dark:bg-black w-full top-0 fixed shadow-lg z-10">
                 <div className="flex flex-col lg:flex-row justify-between max-w-7xl mx-auto">
                     <div className="flex justify-between items-center px-5 py-4 md:px-0 md:py-0">
                         <a href="# ">
