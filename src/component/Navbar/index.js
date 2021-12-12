@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { useState, useEffect } from 'react'
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/Logo (5).svg'
 
 function Navbar() {
 
@@ -34,7 +34,7 @@ function Navbar() {
         <Fragment>
             <nav className="bg-white dark:bg-black w-full top-0 fixed shadow-lg z-10">
                 <div className="flex flex-col lg:flex-row justify-between max-w-7xl mx-auto">
-                    <div className="flex justify-between items-center px-5 py-4 md:px-0 md:py-0">
+                    <div className="flex justify-between items-center px-5 py-4 lg:px-0 ">
                         <a href="# ">
                             <div className="w-full h-full items-center">
                                 <img src={Logo} alt="Lukman HA" className="w-10 h-10"></img>
@@ -67,10 +67,10 @@ function Navbar() {
                     </div>
                     <div className={`${isOpen ? 'block' : 'hidden'} items-center lg:flex justify-end flex-col lg:flex-row w-full py-5 lg:py-0`}>
                         <div className="flex flex-col lg:flex-row justify-center text-center">
-                            <a href="#about" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">About</a>
-                            <a href="#team" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">Skills</a>
-                            <a href="#work" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">Portofolio</a>
-                            <a href="#work" className="block items-center font-sans font-sm px-4 py-3 lg:py-6 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">Contact</a>
+                            <a href="#about" className="block items-center font-sans font-sm px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">About</a>
+                            <a href="#team" className="block items-center font-sans font-sm px-4 py-3 lg:py-7 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">Skills</a>
+                            <a href="#work" className="block items-center font-sans font-sm px-4 py-3 lg:py-7 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">Projects</a>
+                            <a href="#work" className="block items-center font-sans font-sm px-4 py-3 lg:py-7 text-black  hover:text-purple-700 dark:hover:text-purple-700 dark:text-white uppercase font-bold">Contact</a>
                             <button onClick={() => {
                                 dark ? setDark(false) : setDark(true)
                                 dark ? selectTheme('light') : selectTheme('dark')
