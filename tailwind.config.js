@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         shadow: '#ffffff73',
-        brand: '#B90E6E',
+        brand: '#8011D8',
         card: '#FFFFFF',
         textcard: '#595959',
         c1: '#9B39AE',
