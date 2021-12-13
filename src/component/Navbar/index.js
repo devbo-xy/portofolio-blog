@@ -40,7 +40,7 @@ function Navbar() {
 
     return (
         <Fragment>
-            <nav data-aos="fade-down" data-aos-duration="1800" className="bg-card dark:bg-black w-full top-0 fixed shadow-lg z-10">
+            <nav data-aos="fade-down" data-aos-duration="2000" className="bg-card dark:bg-black w-full top-0 fixed shadow-lg z-10">
                 <div className="flex flex-col lg:flex-row justify-between max-w-7xl mx-auto">
                     <div className="flex justify-between items-center px-5 py-4 lg:px-0 ">
                         <a href="# ">
