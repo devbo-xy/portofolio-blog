@@ -41,26 +41,29 @@ function Home() {
             </div>
             <div id="about" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
                 <div className="text-center ">
-                    <h1 className="text-text1 uppercase text-xl md:text-3xl font-bold">
+                    <h1 data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0" className="text-text1 uppercase text-xl md:text-3xl font-bold">
                         About
                     </h1>
                 </div>
                 <div className="max-w-7xl mt-5 mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evnely">
                     {/* md:mr-36 mr-0  */}
                     <div className="flex flex-col md:flex-row justify-start text-center md:ml-3 ">
-                        <div className="w-full h-full">
+                        <div data-aos="fade-right" data-aos-duration="1800" className=" w-full h-full">
                             {/* w-48 sm:w-96 h-48 sm:h-96 */}
                             <img src={Logo} alt="Tangan" className="w-48 sm:w-96 h-48 sm:h-96 mt-5" />
                         </div>
                     </div>
                     <div className="flex flex-col max-w-3xl">
-                        <p className="text-text1 lg:w-4/5 md:ml-56 font-medium dark:text-white text-lg md:text-xl flex-col md:flex-row text-left md:text-right mt-5">
+                        <p data-aos="fade-left" data-aos-duration="1800" className="text-text1 lg:w-4/5 md:ml-56 font-medium dark:text-white text-lg md:text-xl flex-col md:flex-row text-left md:text-right mt-5">
                             I’m studying at Gunadarma University and majoring in Informatics Engineering. I want to learn programmer language and i interest too.
                         </p>
                     </div>
                 </div>
             </div>
-        </Fragment>
+        </Fragment >
     )
 }
 export default Home
