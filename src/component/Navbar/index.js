@@ -3,10 +3,8 @@ import { useState, useEffect } from 'react'
 import Logo from '../../assets/Logo.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import gsap from 'gsap'
 
 function Navbar() {
-
 
     const [isOpen, setIsOpen] = useState(false)
     const [dark, setDark] = useState(false)
