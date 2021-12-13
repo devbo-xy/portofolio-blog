@@ -1,8 +1,12 @@
 import React, { Fragment } from 'react'
 import { useState, useEffect } from 'react'
 import Logo from '../../assets/Logo.svg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import gsap from 'gsap'
 
 function Navbar() {
+
 
     const [isOpen, setIsOpen] = useState(false)
     const [dark, setDark] = useState(false)
@@ -20,6 +24,10 @@ function Navbar() {
     }
 
     useEffect(() => {
+        Aos.init({});
+    }, []);
+
+    useEffect(() => {
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
             setDark(true)
@@ -32,7 +40,7 @@ function Navbar() {
 
     return (
         <Fragment>
-            <nav className="bg-card dark:bg-black w-full top-0 fixed shadow-lg z-10">
+            <nav data-aos="fade-down" data-aos-duration="1800" className="bg-card dark:bg-black w-full top-0 fixed shadow-lg z-10">
                 <div className="flex flex-col lg:flex-row justify-between max-w-7xl mx-auto">
                     <div className="flex justify-between items-center px-5 py-4 lg:px-0 ">
                         <a href="# ">
