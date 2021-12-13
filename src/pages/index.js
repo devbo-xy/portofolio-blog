@@ -41,10 +41,7 @@ function Home() {
             </div>
             <div id="about" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
                 <div className="text-center ">
-                    <h1 data-aos="fade-zoom-in"
-                        data-aos-easing="ease-in-back"
-                        data-aos-delay="300"
-                        data-aos-offset="0" className="text-text1 uppercase text-xl md:text-3xl font-bold">
+                    <h1 data-aos="fade-top" data-aos-duration="1800" className="text-text1 uppercase text-xl md:text-3xl font-bold">
                         About
                     </h1>
                 </div>
