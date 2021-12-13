@@ -17,7 +17,7 @@ function Home() {
             <div className="h-screen bg-white1 dark:bg-darksecond w-full py-5">
                 <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
                     <div className="flex flex-col md:ml-4 max-w-3xl md:mt-20">
-                        <h1 data-aos="fade-right" data-aos-duration="900" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left">
+                        <h1 data-aos="fade-right" data-aos-duration="800" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left">
                             Hi, I'm <span className="uppercase">Lukman Hanif Akbari</span>
                         </h1>
                         <p data-aos="fade-right" data-aos-duration="1200" className="text-text lg:w-3/4 dark:text-white font-bold mt-1 font-serif text-2xl md:text-4xl flex-col md:flex-row text-left">
