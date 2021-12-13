@@ -18,6 +18,11 @@ function Home() {
                         <p className="lg:w-3/4 dark:text-white text-text2 font-medium md:mt-24 mt-10 text-sm md:text-lg flex-col md:flex-row text-left">
                             I am currently in the third year of studying Informatics Engineering
                         </p>
+                        <div className="flex justify-start text-center flex-col md:flex-row mt-4 ">
+                            <a href="# " className="px-8 py-2 mx-auto md:mx-0 flex text-center justify-center md:px-8 md:py-3 uppercase text-xs font-semibold bg-brand shadow-4xl items-center text-white rounded-3xl shadow-2xl transform hover:scale-105">
+                                Email me
+                            </a>
+                        </div>
                     </div>
                     <div className="flex flex-col md:flex-row justify-start  ">
                         <div className=" w-full h-full">
