@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Navbar from '../component/Navbar'
 import Logo from '../assets/Logo.svg'
+import Mail from '../assets/mail.svg'
 
 function Home() {
     return (
@@ -19,8 +20,8 @@ function Home() {
                             I am currently in the third year of studying Informatics Engineering
                         </p>
                         <div className="flex justify-start text-center flex-col md:flex-row mt-4 ">
-                            <a href="# " className="px-8 py-2 mx-auto md:mx-0 flex text-center justify-center md:px-8 md:py-2 uppercase text-sm font-semibold bg-brand shadow-4xl items-center text-white rounded-3xl transform hover:scale-105">
-                                Email me
+                            <a href="# " className="px-8 py-2 mx-auto md:mx-0 flex text-center justify-center md:px-8 md:py-3 uppercase text-sm font-medium bg-brand shadow-4xl items-center text-white rounded-3xl transform hover:scale-105">
+                                <img src={Mail} alt="pesan" className="w-5 h-5 mr-3"></img>Email me
                             </a>
                         </div>
                     </div>
