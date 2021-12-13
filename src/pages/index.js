@@ -1,32 +1,39 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import Navbar from '../component/Navbar'
 import Logo from '../assets/Logo.svg'
 import Mail from '../assets/mail.svg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Home() {
+
+    useEffect(() => {
+        Aos.init({});
+    }, []);
+
     return (
         <Fragment>
             <Navbar />
             <div className="h-screen bg-white1 dark:bg-darksecond w-full py-5">
                 <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
                     <div className="flex flex-col md:ml-4 max-w-3xl md:mt-20">
-                        <h1 className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left">
+                        <h1 data-aos="fade-right" data-aos-duration="300" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left">
                             Hi, I'm <span className="uppercase">Lukman Hanif Akbari</span>
                         </h1>
-                        <p className="text-text lg:w-3/4 dark:text-white font-bold mt-1 font-serif text-2xl md:text-4xl flex-col md:flex-row text-left">
+                        <p data-aos="fade-right" data-aos-duration="900" className="text-text lg:w-3/4 dark:text-white font-bold mt-1 font-serif text-2xl md:text-4xl flex-col md:flex-row text-left">
                             Frontend & UI/UX Designer Who Still Studying in University.
                         </p>
-                        <p className="lg:w-3/4 dark:text-white text-text2 font-sans font-medium md:mt-24 mt-10 text-sm md:text-lg flex-col md:flex-row text-left">
+                        <p data-aos="fade-right" data-aos-duration="18000" className="lg:w-3/4 dark:text-white text-text2 font-sans font-medium md:mt-24 mt-10 text-sm md:text-lg flex-col md:flex-row text-left">
                             I am currently in the third year of studying Informatics Engineering
                         </p>
-                        <div className="flex justify-start text-center flex-col md:flex-row mt-4 ">
+                        <div data-aos="fade-right" data-aos-duration="2400" className="flex justify-start text-center flex-col md:flex-row mt-4 ">
                             <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto md:mx-0 flex text-center justify-center md:px-8 md:py-3 uppercase text-sm font-medium bg-brand shadow-4xl items-center text-white rounded-3xl transform hover:scale-105">
                                 <img src={Mail} alt="pesan" className="w-5 h-5 mr-3"></img>Email me
                             </a>
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row justify-start  ">
-                        <div className=" w-full h-full">
+                        <div data-aos="fade-left" data-aos-duration="2000" className=" w-full h-full">
                             <img src={Logo} alt="Hero" className="w-48 sm:w-96 h-48 sm:h-96" />
                         </div>
                     </div>

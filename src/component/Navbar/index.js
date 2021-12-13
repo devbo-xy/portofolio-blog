@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { useState, useEffect } from 'react'
 import Logo from '../../assets/Logo.svg'
+import Aos from 'aos'
 
 function Navbar() {
 
@@ -18,6 +19,10 @@ function Navbar() {
             console.log("remove Dark")
         }
     }
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
 
     useEffect(() => {
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
