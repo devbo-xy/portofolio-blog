@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react'
-import { useState, useEffect } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import Logo from '../../assets/Logo.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
