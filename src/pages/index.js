@@ -41,9 +41,9 @@ function Home() {
             </div>
             <div id="about" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
                 <div className="text-center ">
-                    <h1 data-aos="fade-top" data-aos-duration="1800" className="text-text1 uppercase text-xl md:text-3xl font-bold">
+                    <button data-aos="fade-top" data-aos-duration="1800" className="text-text1 uppercase px-5 py-3 border-5 border-black  text-xl md:text-3xl font-bold">
                         About
-                    </h1>
+                    </button>
                 </div>
                 <div className="max-w-7xl mt-5 mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evnely">
                     {/* md:mr-36 mr-0  */}

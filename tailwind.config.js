@@ -5,6 +5,7 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+
     extend: {
       colors: {
         shadow: '#ffffff73',
@@ -28,10 +29,16 @@ module.exports = {
         'xxl': 'inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -1px 0px 0px 0 rgba(255, 255, 255, 0.8)',
         'xxxl': '12px 16px 30px 0 rgba(61, 61, 58, 1.5) inset, -11px -8px 12px 0 rgba(0, 0, 0, .25) inset',
       },
+      borderWidth: {
+        DEFAULT: '1px',
+        '5': '5px',
+        '6': '6px',
+
+      },
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    variants: {
+      extend: {},
+    },
+    plugins: [],
+  }
 }
