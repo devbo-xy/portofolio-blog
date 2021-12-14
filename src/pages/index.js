@@ -12,7 +12,8 @@ function Home() {
     }, []);
 
     return (
-        <div style={{ scrollBehavior: 'smooth' }}>
+        // <div style={{ scrollBehavior: 'smooth' }}>
+        <Fragment>
             <Navbar />
             <div className="h-screen bg-white1 dark:bg-darksecond w-full py-5">
                 <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
@@ -60,7 +61,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </div >
+        </Fragment>
+        // </div >
     )
 }
 export default Home
