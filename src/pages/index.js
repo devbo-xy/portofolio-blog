@@ -42,7 +42,7 @@ function Home() {
             </div>
             <div id="about" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
                 <div className="text-center ">
-                    <button data-aos="fade-top" data-aos-duration="1800" className="text-text1 uppercase px-5 py-3 border-6 border-black text-xl md:text-3xl font-bold">
+                    <button data-aos="fade-top" data-aos-duration="1800" className="text-text uppercase px-5 py-3 border-6 border-text text-xl md:text-3xl font-bold">
                         About
                     </button>
                 </div>
@@ -55,7 +55,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="flex flex-col max-w-3xl">
-                        <p data-aos="fade-down" data-aos-duration="1800" className="text-text1 lg:w-4/5 md:ml-56 font-medium dark:text-white text-lg md:text-xl flex-col md:flex-row text-left md:text-right mt-5">
+                        <p data-aos="fade-down" data-aos-duration="1800" className="text-text lg:w-4/5 md:ml-56 font-medium dark:text-white text-lg md:text-xl flex-col md:flex-row text-left md:text-right mt-5">
                             I’m studying at Gunadarma University and majoring in Informatics Engineering. I want to learn programmer language and i interest too.
                         </p>
                     </div>
