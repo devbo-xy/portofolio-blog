@@ -28,8 +28,8 @@ function Home() {
                             I am currently in the third year of studying Informatics Engineering
                         </p>
                         <div data-aos="fade-right" data-aos-duration="2200" className="flex justify-start text-left flex-col md:flex-row md:mt-4 mt-10 ">
-                            <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto md:mx-0 flex text-left justify-start md:px-8 md:py-3 uppercase text-sm font-medium bg-brand shadow-4xl items-center text-white rounded-3xl transform hover:scale-105">
-                                <img src={Mail} alt="pesan" className="w-5 h-5 mr-3"></img>Email me
+                            <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto md:mx-0 flex text-left justify-start md:px-8 md:py-3 uppercase text-sm font-bold bg-brand shadow-4xl items-center text-white rounded-3xl transform hover:scale-105">
+                                <img src={Mail} alt="pesan" className="w-5 h-5 mr-3 text-center"></img>Email me
                             </a>
                         </div>
                     </div>
