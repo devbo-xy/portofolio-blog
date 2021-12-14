@@ -42,7 +42,7 @@ function Home() {
             </div>
             <div id="about" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
                 <div className="text-center ">
-                    <button data-aos="fade-top" data-aos-duration="1800" className="text-text1 uppercase px-5 py-3 border-5 border-purple-400 text-xl md:text-3xl font-bold">
+                    <button data-aos="fade-top" data-aos-duration="1800" className="text-text1 uppercase px-5 py-3 border-6 border-black text-xl md:text-3xl font-bold">
                         About
                     </button>
                 </div>
