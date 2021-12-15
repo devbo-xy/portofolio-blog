@@ -75,22 +75,26 @@ function Home() {
                 </div>
                 <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
                     <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10">
-                        <div className="shadow-xl h-72 w-72 rounded-xl">
-                            <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="object-contain w-full rounded-xl" />
-                            </a>
-                            <div className="text-center mt-5">
-                                <h1 className="text-xl font-bold text-text uppercase">blockchainku</h1>
-                                <p className="text-md text-text2">2021 - 2022</p>
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="rounded-xl shadow-xl">
+                            <div className="shadow-xl h-72 w-72 rounded-xl">
+                                <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
+                                    <img src={BLCK} alt="" className="object-contain w-full rounded-xl" />
+                                </a>
+                                <div className="text-center mt-5">
+                                    <h1 className="text-xl font-bold text-text uppercase">blockchainku</h1>
+                                    <p className="text-md text-text2">2021 - 2022</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="shadow-xl h-72 w-72 rounded-xl">
-                            <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="object-contain rounded-xl" />
-                            </a>
-                            <div className="text-center mt-5">
-                                <h1 className="text-xl font-bold text-text uppercase">portofolio</h1>
-                                <p className="text-md text-text2">2021 - 2022</p>
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="rounded-xl shadow-xl">
+                            <div className="shadow-xl h-72 w-72 rounded-xl">
+                                <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
+                                    <img src={BLCK} alt="" className="object-contain rounded-xl" />
+                                </a>
+                                <div className="text-center mt-5">
+                                    <h1 className="text-xl font-bold text-text uppercase">portofolio</h1>
+                                    <p className="text-md text-text2">2021 - 2022</p>
+                                </div>
                             </div>
                         </div>
                     </div>
