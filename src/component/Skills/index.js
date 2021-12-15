@@ -3,6 +3,10 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import HTML from '../../assets/html.svg'
 import CSS from '../../assets/css.svg'
+import FIGMA from '../../assets/figma.svg'
+import SQL from '../../assets/mysql.svg'
+import VS from '../../assets/vs.svg'
+import VB from '../../assets/vb.svg'
 
 function Skill() {
 
@@ -27,7 +31,7 @@ function Skill() {
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://en.wikipedia.org/wiki/HTML" className="w-full h-full flex justify-center" >
+                            <a href="https://en.wikipedia.org/wiki/HTML" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={HTML} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
@@ -35,7 +39,7 @@ function Skill() {
                             </div>
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://en.wikipedia.org/wiki/CSS" className="w-full h-full flex justify-center" >
+                            <a href="https://en.wikipedia.org/wiki/CSS" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={CSS} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
@@ -43,35 +47,35 @@ function Skill() {
                             </div>
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://www.figma.com/" className="w-full h-full flex justify-center" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                            <a href="https://www.figma.com/" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                                <img src={FIGMA} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
                                 <h1 className="text-xl mt-2">Figma</h1>
                             </div>
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://www.mysql.com/" className="w-full h-full flex justify-center" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                            <a href="https://www.mysql.com/" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                                <img src={SQL} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
-                                <h1 className="text-xl mt-2 font-normal uppercase">MySQL</h1>
+                                <h1 className="text-xl mt-2 font-normal">MySQL</h1>
                             </div>
                         </div>
                         <div className="w-full flex flex-col justify-center items-center mt-5">
-                            <a href="https://id.wikipedia.org/wiki/Visual_Basic" className="w-full h-full flex justify-center" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                            <a href="https://id.wikipedia.org/wiki/Visual_Basic" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                                <img src={VS} alt="" className="w-24 h-24"></img>
+                            </a>
+                            <div className="text-center">
+                                <h1 className="text-xl mt-2 font-normal">Visual Studio</h1>
+                            </div>
+                        </div>
+                        <div className="w-full flex flex-col justify-center items-center mt-5">
+                            <a href="https://en.wikipedia.org/wiki/C%2B%2B" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                                <img src={VB} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
                                 <h1 className="text-xl mt-2 font-normal">Visual Basic</h1>
-                            </div>
-                        </div>
-                        <div className="w-full flex flex-col justify-center items-center mt-5">
-                            <a href="https://en.wikipedia.org/wiki/C%2B%2B" className="w-full h-full flex justify-center" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
-                            </a>
-                            <div className="text-center">
-                                <h1 className="text-xl mt-2 font-normal uppercase">c++</h1>
                             </div>
                         </div>
                     </div>
@@ -80,7 +84,7 @@ function Skill() {
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center" >
+                            <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={HTML} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
@@ -88,7 +92,7 @@ function Skill() {
                             </div>
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center" >
+                            <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={HTML} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
@@ -101,7 +105,7 @@ function Skill() {
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center" >
+                            <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={HTML} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
@@ -109,7 +113,7 @@ function Skill() {
                             </div>
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
-                            <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center" >
+                            <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={HTML} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
