@@ -35,57 +35,57 @@ function Skill() {
                         <h1 className="uppercase font-bold text-xl">using now :</h1>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                        <div data-aos="fade-up-right" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/HTML" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                                <img src={HTML} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl uppercase">html5</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-right" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/CSS" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={CSS} alt="" className="w-24 h-24"></img>
+                                <img src={CSS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl uppercase">css5</h1>
+                                <h1 className="text-xl uppercase">css3</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-left" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://www.figma.com/" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={FIGMA} alt="" className="w-24 h-24"></img>
+                                <img src={FIGMA} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">Figma</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-left" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://www.mysql.com/" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={SQL} alt="" className="w-24 h-24"></img>
+                                <img src={SQL} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">MySQL</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-right" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center mt-5">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center mt-5">
                             <a href="https://id.wikipedia.org/wiki/Visual_Basic" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={VS} alt="" className="w-24 h-24"></img>
+                                <img src={VS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">Visual Studio</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-right" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center mt-5">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center mt-5">
                             <a href="https://en.wikipedia.org/wiki/C%2B%2B" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={VB} alt="" className="w-24 h-24"></img>
+                                <img src={VB} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">Visual Basic</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-left" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center mt-5">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center mt-5">
                             <a href="https://en.wikipedia.org/wiki/C%2B%2B" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={CPP} alt="" className="w-24 h-24"></img>
+                                <img src={CPP} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl uppercase">c++</h1>
@@ -96,17 +96,17 @@ function Skill() {
                         <h1 className="uppercase font-bold text-xl">learning :</h1>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                        <div data-aos="fade-up-right" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={JS} alt="" className="w-24 h-24"></img>
+                                <img src={JS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">Javascript</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-right" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={RJS} alt="" className="w-24 h-24"></img>
+                                <img src={RJS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">ReactJS</h1>
@@ -116,8 +116,8 @@ function Skill() {
                     <div className="flex justify-start ml-5 mt-10 mb-5">
                         <h1 className="uppercase font-bold text-xl">other skills :</h1>
                     </div>
-                    <div data-aos="fade-up-right" data-aos-duration="2200" className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                        <div className="w-full flex flex-col justify-center items-center">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={ORC} alt="" className="w-24 h-24"></img>
                             </a>
@@ -125,7 +125,7 @@ function Skill() {
                                 <h1 className="text-xl">Microsoft Oracle</h1>
                             </div>
                         </div>
-                        <div data-aos="fade-up-right" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
+                        <div data-aos="zoom-in" data-aos-duration="2200" className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={AXD} alt="" className="w-24 h-24"></img>
                             </a>

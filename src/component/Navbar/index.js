@@ -1,5 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import Logo from '../../assets/Logo.svg'
+import Logo2 from '../../assets/Logo2.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -35,22 +36,24 @@ function Navbar() {
         localStorage.removeItem('theme')
     }, [])
 
+    const mode = () => {
+        dark ? setDark(false) : setDark(true)
+        dark ? selectTheme('light') : selectTheme('dark')
+    }
+
     return (
         <Fragment>
-            <nav data-aos="fade-down" data-aos-duration="1800" className="bg-card dark:bg-black w-full top-0 fixed shadow-lg z-10">
+            <nav className="bg-card dark:bg-black w-full top-0 fixed shadow-lg z-10">
                 <div className="flex flex-col lg:flex-row justify-between max-w-7xl mx-auto">
                     <div className="flex justify-between items-center px-5 py-4 lg:px-0 ">
                         <a href="# ">
                             <div className="w-full h-full items-center">
-                                <img src={Logo} alt="Lukman HA" className="w-10 h-10"></img>
+                                <img src={Logo} alt="Lukman HA" className="w-10 h-10" />
                             </div>
                         </a>
                         <div className="flex justify-end">
                             <div className="focus:outline-none flex space-x-3 lg:hidden">
-                                <button onClick={() => {
-                                    dark ? setDark(false) : setDark(true)
-                                    dark ? selectTheme('light') : selectTheme('dark')
-                                }} className="focus:outline-none lg:hidden w-full h-full ">
+                                <button onClick={mode} className="focus:outline-none lg:hidden w-full h-full ">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
                                         <path className={dark ? 'hidden' : 'block'} d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 dark:text-white dark:hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
@@ -76,10 +79,7 @@ function Navbar() {
                             <a href="#skills" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Skills</a>
                             <a href="#projects" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Projects</a>
                             <a href="#contact" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Contact</a>
-                            <button onClick={() => {
-                                dark ? setDark(false) : setDark(true)
-                                dark ? selectTheme('light') : selectTheme('dark')
-                            }}
+                            <button onClick={mode}
                                 className="focus:outline-none hidden items-center text-lg uppercase px-4 py-5 lg:py-6 lg:inline-flex ">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
                                     <path className={dark ? 'hidden' : 'block'} d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
