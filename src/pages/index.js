@@ -5,7 +5,7 @@ import Mail from '../assets/mail.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Skill from '../component/Skills'
-import BLCK from '../assets/blockchainku1.svg'
+import BLCK from '../assets/blockchainku.svg'
 
 function Home() {
 
@@ -64,7 +64,7 @@ function Home() {
                 </div>
             </div>
             <Skill />
-            <div id="project" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
+            <div id="project" className="min-h-screen bg-white1 dark:bg-darkfirst w-full py-20">
                 <div className="text-center px-6 ">
                     <button data-aos="fade-up" data-aos-duration="1800" className="text-text uppercase px-5 py-3 border-6 border-text text-xl md:text-3xl font-bold">
                         projects
@@ -75,18 +75,18 @@ function Home() {
                 </div>
                 <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
                     <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10">
-                        <div data-aos="zoom-in" data-aos-duration="1800" className="shadow-xl h-72 w-72 rounded-xl">
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="object-contain w-full rounded-xl" />
+                                <img src={BLCK} alt="" className="rounded-xl shadow-2xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
                             <div className="text-center mt-5">
                                 <h1 className="text-xl font-bold text-text uppercase">blockchainku</h1>
                                 <p className="text-md text-text2">2021 - 2022</p>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="1800" className="shadow-xl h-72 w-72 rounded-xl">
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="object-contain rounded-xl" />
+                                <img src={BLCK} alt="" className="rounded-xl shadow-2xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
                             <div className="text-center mt-5">
                                 <h1 className="text-xl font-bold text-text uppercase">portofolio</h1>
