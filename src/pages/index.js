@@ -24,7 +24,7 @@ function Home() {
                             Hi, I'm <span className="uppercase">Lukman Hanif Akbari</span>
                         </h1>
                         <p data-aos="fade-right" data-aos-duration="2200" className="text-text lg:w-3/4 dark:text-white font-bold mt-1 font-serif text-2xl md:text-4xl flex-col md:flex-row text-left">
-                            Frontend & UI/UX Designer Who Still Studying in University.
+                            Front-end & UI/UX Designer Who Still Studying in University.
                         </p>
                         <p data-aos="fade-right" data-aos-duration="2200" className="lg:w-3/4 dark:text-white text-text2 font-sans font-medium md:mt-24 mt-10 text-sm md:text-lg flex-col md:flex-row text-left">
                             I am currently in the third year of studying Informatics Engineering
