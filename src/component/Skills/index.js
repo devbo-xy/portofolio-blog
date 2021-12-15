@@ -7,6 +7,11 @@ import FIGMA from '../../assets/figma.svg'
 import SQL from '../../assets/mysql.svg'
 import VS from '../../assets/vs.svg'
 import VB from '../../assets/vb.svg'
+import CPP from '../../assets/c++.svg'
+import JS from '../../assets/javascript.svg'
+import RJS from '../../assets/react.png'
+import ORC from '../../assets/oracle.svg'
+import AXD from '../../assets/adobexd.svg'
 
 function Skill() {
 
@@ -78,6 +83,14 @@ function Skill() {
                                 <h1 className="text-xl mt-2 font-normal">Visual Basic</h1>
                             </div>
                         </div>
+                        <div className="w-full flex flex-col justify-center items-center mt-5">
+                            <a href="https://en.wikipedia.org/wiki/C%2B%2B" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                                <img src={CPP} alt="" className="w-24 h-24"></img>
+                            </a>
+                            <div className="text-center">
+                                <h1 className="text-xl mt-2 font-normal uppercase">c++</h1>
+                            </div>
+                        </div>
                     </div>
                     <div className="flex justify-start ml-5 mt-10 mb-5">
                         <h1 className="uppercase font-bold text-xl">learning :</h1>
@@ -85,7 +98,7 @@ function Skill() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                                <img src={JS} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
                                 <h1 className="text-xl mt-2 font-normal">Javascript</h1>
@@ -93,7 +106,7 @@ function Skill() {
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                                <img src={RJS} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
                                 <h1 className="text-xl mt-2 font-normal">ReactJS</h1>
@@ -106,7 +119,7 @@ function Skill() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                                <img src={ORC} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
                                 <h1 className="text-xl mt-2 font-normal">Microsoft Oracle</h1>
@@ -114,7 +127,7 @@ function Skill() {
                         </div>
                         <div className="w-full flex flex-col justify-center items-center">
                             <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={HTML} alt="" className="w-24 h-24"></img>
+                                <img src={AXD} alt="" className="w-24 h-24"></img>
                             </a>
                             <div className="text-center">
                                 <h1 className="text-xl mt-2 font-normal">AdobeXD</h1>
