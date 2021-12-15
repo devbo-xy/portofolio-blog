@@ -63,6 +63,21 @@ function Home() {
                 </div>
             </div>
             <Skill />
+            <div id="project" className="h-screen bg-white1 dark:bg-darkfirst w-full py-20 inline-block">
+                <div className="text-center px-6 ">
+                    <button data-aos="fade-up" data-aos-duration="1800" className="text-text uppercase px-5 py-3 border-6 border-text text-xl md:text-3xl font-bold">
+                        projects
+                    </button>
+                    <div className="md:max-w-xl max-w-none mt-5 mx-auto">
+                        <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg md:text-xl font-medium uppercase">Create a vision, articulate the vision, passionately own the vision, and relentessly drive it to completion</h1>
+                    </div>
+                </div>
+                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-12 mt-5 md:px-2 py-5">
+                    <div>
+
+                    </div>
+                </div>
+            </div>
 
         </Fragment>
     )
