@@ -5,6 +5,7 @@ import Mail from '../assets/mail.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Skill from '../component/Skills'
+import BLCK from '../assets/blockchainku1.svg'
 
 function Home() {
 
@@ -29,7 +30,7 @@ function Home() {
                             I am currently in the third year of studying Informatics Engineering
                         </p>
                         <div data-aos="fade-right" data-aos-duration="2200" className="flex justify-start text-left flex-col md:flex-row md:mt-4 mt-10 ">
-                            <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto md:mx-0 flex text-left justify-start md:px-8 md:py-3 uppercase text-sm font-bold bg-brand shadow-4xl items-center text-white rounded-3xl transition duration-700 ease-in-out transform hover:scale-90">
+                            <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto ml-0 md:mx-0 flex text-left justify-start md:px-8 md:py-3 uppercase text-sm font-bold bg-brand shadow-4xl items-center text-white rounded-3xl transition duration-700 ease-in-out transform hover:scale-90">
                                 <img src={Mail} alt="pesan" className="w-5 h-5 mr-3 text-center"></img>Email me
                             </a>
                         </div>
@@ -72,9 +73,26 @@ function Home() {
                         <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg md:text-xl font-medium uppercase">Create a vision, articulate the vision, passionately own the vision, and relentessly drive it to completion</h1>
                     </div>
                 </div>
-                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-12 mt-5 md:px-2 py-5">
-                    <div>
-
+                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
+                    <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10">
+                        <div className="shadow-xl h-72 w-72 w-full rounded-xl">
+                            <a target="_blank" href="blockchainku.vercel.app">
+                                <img href="https://blockchainku.vercel.app/" src={BLCK} className="object-contain w-full rounded-xl" />
+                            </a>
+                            <div className="text-center mt-5">
+                                <h1 className="text-xl font-bold text-text uppercase">blockchainku</h1>
+                                <p className="text-md text-text2">2021 - 2022</p>
+                            </div>
+                        </div>
+                        <div className="shadow-xl h-72 w-72 w-full rounded-xl">
+                            <a target="_blank" href="blockchainku.vercel.app">
+                                <img src={BLCK} className="object-contain w-full rounded-xl" />
+                            </a>
+                            <div className="text-center mt-5">
+                                <h1 className="text-xl font-bold text-text uppercase">portofolio</h1>
+                                <p className="text-md text-text2">2021 - 2022</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
