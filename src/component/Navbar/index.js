@@ -1,6 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import Logo from '../../assets/Logo.svg'
-import Logo2 from '../../assets/Logo2.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
