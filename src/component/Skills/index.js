@@ -26,7 +26,7 @@ function Skill() {
                     <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white px-5 py-3 border-6 border-text uppercase text-xl md:text-3xl font-bold">
                         Skills
                     </button >
-                    <p className="mt-5 mx-6 text-lg md:text-xl font-medium uppercase">
+                    <p data-aos="fade-up" data-aos-duration="2200" className="mt-5 mx-6 text-lg md:text-xl font-medium uppercase">
                         Skill can be improved by practice.
                     </p>
                 </div>
