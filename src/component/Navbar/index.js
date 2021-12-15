@@ -73,9 +73,9 @@ function Navbar() {
                     <div className={`${isOpen ? 'block' : 'hidden'} items-center lg:flex justify-end flex-col lg:flex-row w-full py-5 lg:py-0`}>
                         <div className="flex flex-col lg:flex-row justify-center text-center">
                             <a href="#about" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">About</a>
-                            <a href="#team" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Skills</a>
-                            <a href="#work" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Projects</a>
-                            <a href="#work" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Contact</a>
+                            <a href="#skills" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Skills</a>
+                            <a href="#projects" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Projects</a>
+                            <a href="#contact" className="block items-center font-sans font-xs px-4 py-3 lg:py-7 text-black  hover:text-brand dark:hover:text-brand dark:text-white uppercase font-bold">Contact</a>
                             <button onClick={() => {
                                 dark ? setDark(false) : setDark(true)
                                 dark ? selectTheme('light') : selectTheme('dark')
