@@ -22,6 +22,7 @@ module.exports = {
         'text2': '#888888',
       },
       boxShadow: {
+        '3xl': '-5px 5px 20px 2px rgba(0, 0, 0, .25)',
         '5xl': '12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset',
         '4xl': '4px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, .25) inset',
         'xxl': 'inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -1px 0px 0px 0 rgba(255, 255, 255, 0.8)',

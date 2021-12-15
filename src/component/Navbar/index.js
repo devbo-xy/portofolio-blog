@@ -61,7 +61,7 @@ function Navbar() {
                                     </svg>
                                 </button>
                                 {/* Pada bagian button dikasih kondisi state dark true atau false */}
-                                <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none hover:md:text-brand dark:text-white dark:hover:md:text-brand ">
+                                <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none hover:text-brand dark:text-white dark:hover:text-brand ">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path className={!isOpen ? 'block' : 'hidden'} stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">

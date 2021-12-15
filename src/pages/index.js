@@ -77,7 +77,7 @@ function Home() {
                     <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="rounded-xl shadow-2xl transition duration-700 ease-in-out transform hover:scale-90" />
+                                <img src={BLCK} alt="" className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
                             <div className="text-center mt-5">
                                 <h1 className="text-xl font-bold text-text uppercase">blockchainku</h1>
@@ -86,7 +86,7 @@ function Home() {
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="rounded-xl shadow-2xl transition duration-700 ease-in-out transform hover:scale-90" />
+                                <img src={BLCK} alt="" className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
                             <div className="text-center mt-5">
                                 <h1 className="text-xl font-bold text-text uppercase">portofolio</h1>
