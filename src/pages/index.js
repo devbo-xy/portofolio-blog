@@ -6,6 +6,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Skill from '../component/Skills'
 import BLCK from '../assets/blockchainku.svg'
+import BG from '../assets/bg.svg'
 
 function Home() {
 
@@ -17,27 +18,29 @@ function Home() {
         // <div style={{ scrollBehavior: 'smooth' }}>
         <Fragment>
             <Navbar />
-            <div className="h-screen bg-white1 dark:bg-darksecond w-full py-5">
-                <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
-                    <div className="flex flex-col md:ml-4 max-w-3xl md:mt-20">
-                        <h1 data-aos="fade-right" data-aos-duration="2200" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left mt-10">
-                            Hi, I'm <span className="uppercase">Lukman Hanif Akbari</span>
-                        </h1>
-                        <p data-aos="fade-right" data-aos-duration="2200" className="text-text lg:w-3/4 dark:text-white font-bold mt-1 font-serif text-2xl md:text-4xl flex-col md:flex-row text-left">
-                            Front-end & UI/UX Designer Who Still Studying in University.
-                        </p>
-                        <p data-aos="fade-right" data-aos-duration="2200" className="lg:w-3/4 dark:text-white text-text2 font-sans font-medium md:mt-24 mt-10 text-sm md:text-lg flex-col md:flex-row text-left">
-                            I am currently in the third year of studying Informatics Engineering
-                        </p>
-                        <div data-aos="fade-right" data-aos-duration="2200" className="flex justify-start text-left flex-col md:flex-row md:mt-4 mt-10 ">
-                            <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto ml-0 md:mx-0 flex text-left justify-start md:px-8 md:py-3 uppercase text-sm font-bold bg-brand shadow-4xl items-center text-white rounded-3xl transition duration-700 ease-in-out transform hover:scale-90">
-                                <img src={Mail} alt="pesan" className="w-5 h-5 mr-3 text-center"></img>Email me
-                            </a>
+            <div className="w-full py-5">
+                <div src={BG} className="h-screen bg-bg w-full shadow-lg">
+                    <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
+                        <div className="flex flex-col md:ml-4 max-w-3xl md:mt-20">
+                            <h1 data-aos="fade-right" data-aos-duration="2200" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left mt-10">
+                                Hi, I'm <span className="uppercase">Lukman Hanif Akbari</span>
+                            </h1>
+                            <p data-aos="fade-right" data-aos-duration="2200" className="text-text lg:w-3/4 dark:text-white font-bold mt-1 font-serif text-2xl md:text-4xl flex-col md:flex-row text-left">
+                                Front-end & UI/UX Designer Who Still Studying in University.
+                            </p>
+                            <p data-aos="fade-right" data-aos-duration="2200" className="lg:w-3/4 dark:text-white text-text2 font-sans font-medium md:mt-24 mt-10 text-sm md:text-lg flex-col md:flex-row text-left">
+                                I am currently in the third year of studying Informatics Engineering
+                            </p>
+                            <div data-aos="fade-right" data-aos-duration="2200" className="flex justify-start text-left flex-col md:flex-row md:mt-4 mt-10 ">
+                                <a href="mailto:hanifakbri7@gmail.com" className="px-8 py-2 mx-auto ml-0 md:mx-0 flex text-left justify-start md:px-8 md:py-3 uppercase text-sm font-bold bg-brand shadow-4xl items-center text-white rounded-3xl transition duration-700 ease-in-out transform hover:scale-90">
+                                    <img src={Mail} alt="pesan" className="w-5 h-5 mr-3 text-center"></img>Email me
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div className="flex flex-col md:flex-row justify-start  ">
-                        <div data-aos="fade-left" data-aos-duration="2200" className=" w-full h-full">
-                            <img src={Logo} alt="Hero" className="w-48 sm:w-96 h-48 sm:h-96" />
+                        <div className="flex flex-col md:flex-row justify-start  ">
+                            <div data-aos="fade-left" data-aos-duration="2200" className=" w-full h-full">
+                                <img src={Logo} alt="Hero" className="w-48 sm:w-96 h-48 sm:h-96" />
+                            </div>
                         </div>
                     </div>
                 </div>
