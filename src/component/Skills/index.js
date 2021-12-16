@@ -119,7 +119,7 @@ function Skill() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
                             <a rel="noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={ORC} alt="" className="w-24 h-24"></img>
+                                <img src={ORC} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">Microsoft Oracle</h1>
@@ -127,7 +127,7 @@ function Skill() {
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
                             <a rel="noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
-                                <img src={AXD} alt="" className="w-24 h-24"></img>
+                                <img src={AXD} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">AdobeXD</h1>
