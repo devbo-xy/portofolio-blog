@@ -21,6 +21,7 @@ module.exports = {
         'text': '#242424',
         'text2': '#888888',
         'bg': '#F6F6F6',
+        'cb': '#F8F8F8',
       },
       boxShadow: {
         '3xl': '-5px 5px 20px 2px rgba(0, 0, 0, .25)',

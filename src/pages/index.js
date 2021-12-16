@@ -19,7 +19,7 @@ function Home() {
         <Fragment>
             <Navbar />
             <div className="w-full py-5">
-                <div src={BG} className="h-screen bg-bg w-full shadow-lg">
+                <div src={BG} className="h-screen bg-cb w-full shadow-lg">
                     <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
                         <div className="flex flex-col md:ml-4 max-w-3xl md:mt-20">
                             <h1 data-aos="fade-right" data-aos-duration="2200" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left mt-10">
@@ -54,7 +54,7 @@ function Home() {
                 <div className="max-w-7xl mt-5 mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evnely">
                     {/* md:mr-36 mr-0  */}
                     <div className="flex flex-col md:flex-row justify-start text-center md:mt-0 mt-5 md:ml-3 ">
-                        <div data-aos="fade-up" data-aos-duration="2200" className=" w-full h-full">
+                        <div data-aos="fade-up" data-aos-duration="2200" className="w-full h-full">
                             {/* w-48 sm:w-96 h-48 sm:h-96 */}
                             <img src={Logo} alt="Tangan" className="w-48 sm:w-96 h-48 sm:h-96 mt-5" />
                         </div>
@@ -73,12 +73,12 @@ function Home() {
                         projects
                     </button>
                     <div className="md:max-w-xl max-w-none mt-5 mx-auto">
-                        <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg md:text-xl font-medium uppercase">Create a vision, articulate the vision, passionately own the vision, and relentessly drive it to completion</h1>
+                        <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg font-medium uppercase">Create a vision, articulate the vision, passionately own the vision, and relentessly drive it to completion</h1>
                     </div>
                 </div>
                 <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
                     <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10">
-                        <div data-aos="zoom-in" data-aos-duration="1800" className="">
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="w-64 max-h-64">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
                                 <img src={BLCK} alt="" className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
@@ -87,7 +87,7 @@ function Home() {
                                 <p className="text-md text-text2">2021 - 2022</p>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="1800" className="">
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="w-64 w-64">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
                                 <img src={BLCK} alt="" className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
@@ -99,7 +99,28 @@ function Home() {
                     </div>
                 </div>
             </div>
-
+            <div id="contact" className="min-h-screen w-full py-20 bg-white1 ">
+                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
+                    <div className="text-center px-6 ">
+                        <button data-aos="fade-up" data-aos-duration="1800" className="text-text uppercase px-5 py-3 border-6 border-text text-xl md:text-3xl font-bold">
+                            contact
+                        </button>
+                        <div className="md:max-w-xl max-w-none mt-5 mx-auto">
+                            <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg font-medium uppercase">New customers come from the action of past customers</h1>
+                        </div>
+                    </div>
+                    <form className="bg-white max-w-xl mx-auto h-96 p-10 md:mt-20 mt-5 shadow-xl rounded-xl">
+                        <div className="p-2 text-center h-full">
+                            <div className="">
+                                <div className="text-left">
+                                    <h1 className="uppercase text-lg text-text font-semibold">name</h1>
+                                </div>
+                                <input placeholder="enter your name" className="w-full mt-1 rounded-lg py-2 border-2 border-black" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </Fragment>
     )
 }
