@@ -109,8 +109,8 @@ function Home() {
                             <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg font-medium uppercase">New customers come from the action of past customers</h1>
                         </div>
                     </div>
-                    <form className="bg-white max-w-xl mx-auto h-full p-10 md:mt-20 mt-5 shadow-xl rounded-xl">
-                        <div className="p-2 text-center h-full">
+                    <form data-aos="zoom-in" data-aos-duration="1800" className="bg-white max-w-xl mx-auto h-full p-10 md:mt-20 mt-5 shadow-4xl rounded-xl">
+                        <div className="p-2 h-full text-center">
                             <div className="">
                                 <div className="text-left">
                                     <h1 className="uppercase text-md text-text font-semibold">name</h1>
@@ -133,8 +133,11 @@ function Home() {
                                 <div className="text-left">
                                     <h1 className="uppercase text-md text-text font-semibold">message</h1>
                                 </div>
-                                <input type="text" placeholder="enter your name*" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-14 outline-red bg-ipt border-2 border-black" />
+                                <input type="text" placeholder="your message" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-14 outline-red bg-ipt border-2 border-black" />
                             </div>
+                            <button className="mt-16 uppercase text-white text-md font-semibold px-9 py-3 rounded-lg bg-brand shadow-4xl transition duration-700 ease-in-out transform hover:scale-90">
+                                Submit
+                            </button>
                         </div>
                     </form>
                 </div>
