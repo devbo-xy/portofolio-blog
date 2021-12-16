@@ -18,10 +18,10 @@ function Home() {
         // <div style={{ scrollBehavior: 'smooth' }}>
         <Fragment>
             <Navbar />
-            <div className="w-full py-5">
-                <div src={BG} className="h-screen bg-cb w-full shadow-lg">
+            <div className="w-full py-5 bg-brand">
+                <div className="h-screen bg-hero w-full">
                     <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly md:mt-0">
-                        <div className="flex flex-col md:ml-4 max-w-3xl md:mt-20">
+                        <div className="flex flex-col md:ml-4 max-w-3xl md:mt-10">
                             <h1 data-aos="fade-right" data-aos-duration="2200" className="text-brand dark:text-brand font-bold font-sans text-xl md:text-3xl text-left mt-10">
                                 Hi, I'm <span className="uppercase">Lukman Hanif Akbari</span>
                             </h1>
@@ -76,8 +76,8 @@ function Home() {
                         <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg font-medium uppercase">Create a vision, articulate the vision, passionately own the vision, and relentessly drive it to completion</h1>
                     </div>
                 </div>
-                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
-                    <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-10">
+                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
+                    <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-2">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-64 max-h-64">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
                                 <img src={BLCK} alt="" className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
@@ -89,7 +89,7 @@ function Home() {
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-64 w-64">
                             <a rel="noreferrer" target="_blank" href="https://blockchainku.vercel.app/" >
-                                <img src={BLCK} alt="" className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
+                                <img src={BLCK} alt="" className="mt-24 md:mt-0 rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90" />
                             </a>
                             <div className="text-center mt-5">
                                 <h1 className="text-xl font-bold text-text uppercase">portofolio</h1>
@@ -100,7 +100,7 @@ function Home() {
                 </div>
             </div>
             <div id="contact" className="min-h-screen w-full py-20 bg-white1 ">
-                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
+                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
                     <div className="text-center px-6 ">
                         <button data-aos="fade-up" data-aos-duration="1800" className="text-text uppercase px-5 py-3 border-6 border-text text-xl md:text-3xl font-bold">
                             contact
@@ -113,29 +113,29 @@ function Home() {
                         <div className="p-2 h-full text-center">
                             <div className="">
                                 <div className="text-left">
-                                    <h1 className="uppercase text-md text-text font-semibold">name</h1>
+                                    <h1 className="uppercase md:text-md text-sm text-text font-semibold">name</h1>
                                 </div>
-                                <input type="name" placeholder="enter your name *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-2 border-black" />
+                                <input type="name" placeholder="enter your name *" className="w-full mt-1 px-2 uppercase text-xs md:text-sm rounded-lg py-4 outline-red bg-ipt " />
                             </div>
                             <div className="mt-5">
                                 <div className="text-left">
-                                    <h1 className="uppercase text-md text-text font-semibold">email</h1>
+                                    <h1 className="uppercase md:text-md text-sm text-text font-semibold">email</h1>
                                 </div>
-                                <input type="email" placeholder="enter your e-mail *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-2 border-black" />
+                                <input type="email" placeholder="enter your email *" className="w-full mt-1 px-2 uppercase text-xs md:text-sm rounded-lg py-4 outline-red bg-ipt " />
                             </div>
                             <div className="mt-5">
                                 <div className="text-left">
-                                    <h1 className="uppercase text-md text-text font-semibold">phone number</h1>
+                                    <h1 className="uppercase md:text-md text-sm text-text font-semibold">phone number</h1>
                                 </div>
-                                <input type="number" placeholder="phone number *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-2 border-black" />
+                                <input type="number" placeholder="phone number *" className="w-full mt-1 px-2 uppercase text-xs md:text-sm rounded-lg py-4 outline-red bg-ipt " />
                             </div>
                             <div className="mt-5">
                                 <div className="text-left">
-                                    <h1 className="uppercase text-md text-text font-semibold">message</h1>
+                                    <h1 className="uppercase md:text-md text-sm text-text font-semibold">message</h1>
                                 </div>
-                                <input type="text" placeholder="your message" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-14 outline-red bg-ipt border-2 border-black" />
+                                <input type="text" placeholder="your message" className="w-full mt-1 px-2 uppercase text-xs md:text-sm rounded-lg py-14 outline-red bg-ipt " />
                             </div>
-                            <button className="mt-16 uppercase text-white text-md font-semibold px-9 py-3 rounded-lg bg-brand shadow-4xl transition duration-700 ease-in-out transform hover:scale-90">
+                            <button className="mt-16 uppercase text-white md:text-md text-sm  font-semibold md:px-9 px-6 md:py-3 py-2 rounded-lg bg-brand shadow-7xl transition duration-700 ease-in-out transform hover:scale-90">
                                 Submit
                             </button>
                         </div>

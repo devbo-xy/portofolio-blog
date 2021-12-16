@@ -30,7 +30,7 @@ function Skill() {
                         Skill can be improved by practice.
                     </p>
                 </div>
-                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-20 mt-5 md:px-2 py-5">
+                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
                     <div className="flex justify-start ml-5 mb-5">
                         <h1 className="uppercase font-bold text-xl">using now :</h1>
                     </div>
