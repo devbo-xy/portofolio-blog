@@ -175,7 +175,7 @@ function Home() {
                     </div>
                     <div className="text-left md:text-center text-white">
                         <p>© 2021. All right reserved - Created</p>
-                        <p>by Lukman Hanif Akbari</p>
+                        <p>by <span className="font-bold">Lukman Hanif Akbari</span></p>
                     </div>
                 </div>
             </footer>
