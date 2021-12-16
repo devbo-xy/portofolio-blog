@@ -12,6 +12,7 @@ import JS from '../../assets/javascript.svg'
 import RJS from '../../assets/react.png'
 import ORC from '../../assets/oracle.svg'
 import AXD from '../../assets/adobexd.svg'
+import BD from '../../assets/blender.svg'
 
 function Skill() {
 
@@ -118,7 +119,7 @@ function Skill() {
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
-                            <a rel="noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                            <a rel="noreferrer" target="_blank" href="https://www.oracle.com/cloud/azure-interconnect/" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={ORC} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
@@ -126,11 +127,19 @@ function Skill() {
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
-                            <a rel="noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                            <a rel="noreferrer" target="_blank" href="https://www.adobe.com/products/xd.html" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
                                 <img src={AXD} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
                                 <h1 className="text-xl">AdobeXD</h1>
+                            </div>
+                        </div>
+                        <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
+                            <a rel="noreferrer" target="_blank" href="https://www.blender.org/" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-75" >
+                                <img src={BD} alt="" className="w-24 h-24" />
+                            </a>
+                            <div className="text-center mt-2">
+                                <h1 className="text-xl">Blender</h1>
                             </div>
                         </div>
                     </div>
