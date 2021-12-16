@@ -22,7 +22,7 @@ module.exports = {
         'text2': '#888888',
         'bg': '#F6F6F6',
         'cb': '#F8F8F8',
-        'ipt': '#F1F0F0',
+        'ipt': '#F1F1F1',
       },
       boxShadow: {
         '3xl': '-5px 5px 20px 2px rgba(0, 0, 0, .25)',
@@ -33,6 +33,7 @@ module.exports = {
       },
       borderWidth: {
         DEFAULT: '1px',
+        '2': '2px',
         '3': '3px',
         '4': '4px',
         '5': '5px',

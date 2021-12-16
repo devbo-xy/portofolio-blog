@@ -109,31 +109,31 @@ function Home() {
                             <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg font-medium uppercase">New customers come from the action of past customers</h1>
                         </div>
                     </div>
-                    <form className="bg-white max-w-xl mx-auto h-96 p-10 md:mt-20 mt-5 shadow-xl rounded-xl">
+                    <form className="bg-white max-w-xl mx-auto h-full p-10 md:mt-20 mt-5 shadow-xl rounded-xl">
                         <div className="p-2 text-center h-full">
                             <div className="">
                                 <div className="text-left">
                                     <h1 className="uppercase text-md text-text font-semibold">name</h1>
                                 </div>
-                                <input type="name" placeholder="enter your name *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-3 border-black" />
+                                <input type="name" placeholder="enter your name *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-2 border-black" />
                             </div>
                             <div className="mt-5">
                                 <div className="text-left">
                                     <h1 className="uppercase text-md text-text font-semibold">email</h1>
                                 </div>
-                                <input type="email" placeholder="enter your e-mail *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-3 border-black" />
+                                <input type="email" placeholder="enter your e-mail *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-2 border-black" />
                             </div>
                             <div className="mt-5">
                                 <div className="text-left">
                                     <h1 className="uppercase text-md text-text font-semibold">phone number</h1>
                                 </div>
-                                <input type="number" placeholder="phone number *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-3 border-black" />
+                                <input type="number" placeholder="phone number *" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-4 outline-red bg-ipt border-2 border-black" />
                             </div>
                             <div className="mt-5">
                                 <div className="text-left">
                                     <h1 className="uppercase text-md text-text font-semibold">message</h1>
                                 </div>
-                                <input type="text" placeholder="enter your name*" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-14 outline-red bg-ipt border-3 border-black" />
+                                <input type="text" placeholder="enter your name*" className="w-full mt-1 px-2 uppercase text-sm rounded-lg py-14 outline-red bg-ipt border-2 border-black" />
                             </div>
                         </div>
                     </form>
