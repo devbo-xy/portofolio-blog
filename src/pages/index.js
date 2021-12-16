@@ -109,13 +109,13 @@ function Home() {
                             <h1 data-aos="fade-up" data-aos-duration="2200" className="text-lg font-medium uppercase">New customers come from the action of past customers</h1>
                         </div>
                     </div>
-                    <form className="bg-white max-w-xl mx-auto h-96 p-10 md:mt-20 mt-5 shadow-xl rounded-xl">
+                    <form className="bg-cb max-w-xl mx-auto h-96 p-10 md:mt-20 mt-5 shadow-xl rounded-xl">
                         <div className="p-2 text-center h-full">
                             <div className="">
                                 <div className="text-left">
                                     <h1 className="uppercase text-lg text-text font-semibold">name</h1>
                                 </div>
-                                <input placeholder="enter your name" className="w-full mt-1 rounded-lg py-2 border-2 border-black" />
+                                <input type="name" placeholder="enter your name" className="w-full mt-1 uppercase text-sm rounded-lg py-3 bg-white" />
                             </div>
                         </div>
                     </form>
