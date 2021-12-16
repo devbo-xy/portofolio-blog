@@ -166,6 +166,10 @@ function Home() {
                             </a>
                         </div>
                     </div>
+                    <div className="text-center text-white">
+                        <p>© 2021. All right reserved - Created</p>
+                        <p>by Lukman Hanif Akbari</p>
+                    </div>
                 </div>
             </footer>
         </Fragment >
