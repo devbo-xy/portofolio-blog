@@ -10,7 +10,6 @@ import Git from '../assets/github.svg'
 import Twitter from '../assets/twitter.svg'
 import Ig from '../assets/instagram.svg'
 import Fb from '../assets/facebook.svg'
-import Dw from '../assets/dw.png'
 
 function Home() {
 
