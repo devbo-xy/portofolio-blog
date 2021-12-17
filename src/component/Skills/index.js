@@ -22,18 +22,18 @@ function Skill() {
 
     return (
         <Fragment>
-            <div id="skills" className="min-h-screen bg-white1 dark:bg-darkfirst w-full py-20">
+            <div id="skills" className="min-h-screen bg-white1 dark:bg-drkpage w-full py-20">
                 <div className="text-center">
-                    <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white px-5 py-3 border-6 border-text uppercase text-xl md:text-3xl font-bold">
+                    <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white1  px-5 py-3 border-6 border-text dark:border-white1 uppercase text-xl md:text-3xl font-bold">
                         Skills
                     </button >
-                    <p data-aos="fade-up" data-aos-duration="2200" className="mt-5 ßtext-lg md:text-xl font-medium uppercase">
+                    <p data-aos="fade-up" data-aos-duration="2200" className="mt-5 text-text dark:text-white1 text-lg md:text-xl font-medium uppercase">
                         Skill can be improved by practice.
                     </p>
                 </div>
                 <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
                     <div className="flex justify-start ml-5 mb-5">
-                        <h1 className="uppercase font-bold text-xl">using now :</h1>
+                        <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200">using now :</h1>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -41,7 +41,7 @@ function Skill() {
                                 <img src={HTML} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl uppercase">html5</h1>
+                                <h1 className="text-xl text-text dark:text-white1  uppercase ">html5</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -49,7 +49,7 @@ function Skill() {
                                 <img src={CSS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl uppercase">css3</h1>
+                                <h1 className="text-xl text-text dark:text-white1  uppercase">css3</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -57,7 +57,7 @@ function Skill() {
                                 <img src={FIGMA} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">Figma</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">Figma</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -65,7 +65,7 @@ function Skill() {
                                 <img src={SQL} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">MySQL</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">MySQL</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center mt-5">
@@ -73,7 +73,7 @@ function Skill() {
                                 <img src={VS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">Visual Studio</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">Visual Studio</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center mt-5">
@@ -81,7 +81,7 @@ function Skill() {
                                 <img src={VB} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">Visual Basic</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">Visual Basic</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center mt-5">
@@ -89,12 +89,12 @@ function Skill() {
                                 <img src={CPP} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl uppercase">c++</h1>
+                                <h1 className="text-xl text-text dark:text-white1  uppercase">c++</h1>
                             </div>
                         </div>
                     </div>
                     <div className="flex justify-start ml-5 mt-10 mb-5">
-                        <h1 className="uppercase font-bold text-xl">learning :</h1>
+                        <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200 ">learning :</h1>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -102,7 +102,7 @@ function Skill() {
                                 <img src={JS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">Javascript</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">Javascript</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -110,12 +110,12 @@ function Skill() {
                                 <img src={RJS} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">ReactJS</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">ReactJS</h1>
                             </div>
                         </div>
                     </div>
                     <div className="flex justify-start ml-5 mt-10 mb-5">
-                        <h1 className="uppercase font-bold text-xl">other skills :</h1>
+                        <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200 ">other skills :</h1>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -123,7 +123,7 @@ function Skill() {
                                 <img src={ORC} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">Microsoft Oracle</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">Microsoft Oracle</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -131,7 +131,7 @@ function Skill() {
                                 <img src={AXD} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">AdobeXD</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">AdobeXD</h1>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-duration="1800" className="w-full flex flex-col justify-center items-center">
@@ -139,7 +139,7 @@ function Skill() {
                                 <img src={BD} alt="" className="w-24 h-24" />
                             </a>
                             <div className="text-center mt-2">
-                                <h1 className="text-xl">Blender</h1>
+                                <h1 className="text-xl text-text dark:text-white1 ">Blender</h1>
                             </div>
                         </div>
                     </div>

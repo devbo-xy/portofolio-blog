@@ -9,6 +9,8 @@ module.exports = {
         'hero': 'url(/src/assets/bg.svg)'
       },
       colors: {
+        drknav: '#302E2E',
+        drkpage: '#9123EA',
         shadow: '#ffffff73',
         brand: '#8A1AE4',
         card: '#FFFFFF',
