@@ -43,7 +43,7 @@ function Projects() {
                                 <img
                                     src={BLCK}
                                     alt="Blockchainku"
-                                    className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90"
+                                    className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-125"
                                 />
                             </a>
                             <div className="text-center mt-5">
@@ -61,12 +61,12 @@ function Projects() {
                             <a
                                 rel="noreferrer"
                                 target="_blank"
-                                href="https://blockchainku.vercel.app/"
+                                href="https://portofolio-blog.vercel.app/"
                             >
                                 <img
                                     src={PRT}
                                     alt="Portofolio-blog"
-                                    className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-90"
+                                    className="rounded-xl shadow-3xl transition duration-700 ease-in-out transform hover:scale-125"
                                 />
                             </a>
                             <div className="text-center mt-5">
