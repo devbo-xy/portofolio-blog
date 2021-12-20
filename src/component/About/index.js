@@ -12,7 +12,7 @@ function About() {
                     <button
                         data-aos="fade-up"
                         data-aos-duration="1800"
-                        className="text-text dark:text-white1 uppercase px-5 py-3 border-6 border-text dark:border-white1 text-xl md:text-3xl font-bold"
+                        className="text-text dark:text-white1 uppercase px-5 py-3 border-6 border-text dark:border-white1 text-xl md:text-3xl font-bold active:outline-none"
                     >
                         About
                     </button>

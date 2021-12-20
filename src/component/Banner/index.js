@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Foto from '../../assets/foto.svg'
+import Pem from '../../assets/pem.svg'
 
 function Banner() {
     return (
@@ -45,6 +46,9 @@ function Banner() {
                     </div>
                 </div>
             </div>
+            {/* <div className="w-full">
+                <img src={Pem} alt="" className="w-full bg-purple-700" />
+            </div> */}
         </Fragment >
     )
 }
