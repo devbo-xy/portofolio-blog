@@ -7,7 +7,11 @@ function Banner() {
         <Fragment>
             <div className="h-screen bg-white1 dark:bg-drkpage w-full py-20 overflow-hidden">
                 <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly mt-24 md:mt-0">
-                    <div className="flex flex-col md:ml-4 max-w-3xl md:mt-10">
+                    <div
+                        data-aos="fade-down"
+                        data-aos-duration="2200"
+                        className="flex flex-col md:ml-4 max-w-3xl md:mt-10"
+                    >
                         <h1
                             className="text-brand dark:text-drknav font-bold font-sans text-xl md:text-3xl text-left mt-10"
                         >
@@ -27,6 +31,8 @@ function Banner() {
                     </div>
                     <div className="flex flex-col md:flex-row justify-start h-full">
                         <div
+                            data-aos="fade-up"
+                            data-aos-duration="2200"
                             className=" w-full h-full"
                         >
                             <img

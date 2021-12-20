@@ -49,7 +49,7 @@ function About() {
                         >
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
-                                className="px-8 py-2 mx-auto md:mx-0 flex justify-center md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-90">
+                                className="px-8 py-2 mx-auto md:mx-0 flex justify-center md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
                                 <svg src={Mail}
                                     alt="pesan"
                                     className="w-5 h-5 mr-3 text-center"
