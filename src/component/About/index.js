@@ -44,7 +44,7 @@ function About() {
                         <div
                             data-aos="fade-up"
                             data-aos-duration="2200"
-                            className="flex justify-end md:-mr-10 flex-col md:flex-row md:mt-28 mt-5 w-full"
+                            className="flex justify-end md:ml-10 flex-col md:flex-row md:mt-28 mt-5 w-full"
                         >
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
