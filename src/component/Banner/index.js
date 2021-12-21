@@ -5,11 +5,11 @@ function Banner() {
     return (
         <Fragment>
             <div className="h-screen bg-white3 dark:bg-drkpage w-full py-20 overflow-hidden">
-                <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly">
+                <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly mt-3 md:mt-0">
                     <div
                         data-aos="fade-down"
                         data-aos-duration="2200"
-                        className="flex flex-col md:ml-4 max-w-3xl"
+                        className="flex flex-col md:ml-4 max-w-3xl mt-24 md:mt-0"
                     >
                         <h1
                             className="text-brand font-bold font-sans text-xl md:text-3xl text-left mt-10"
