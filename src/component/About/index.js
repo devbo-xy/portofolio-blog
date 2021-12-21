@@ -6,7 +6,7 @@ function About() {
     return (
         <Fragment>
             <div id="about"
-                className="min-h-screen bg-white1 dark:bg-drkpage w-full py-20 inline-block"
+                className="min-h-screen bg-white1 dark:bg-drknav w-full py-20 inline-block"
             >
                 <div className="text-center ">
                     <button

@@ -10,7 +10,7 @@ module.exports = {
       },
       colors: {
         drknav: '#303030',
-        drkpage: '#282828',
+        drkpage: '#333333',
         shadow: '#ffffff73',
         brand: '#8A1AE4',
         card: '#FFFFFF',
