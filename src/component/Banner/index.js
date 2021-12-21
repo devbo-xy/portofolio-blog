@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import Foto from '../../assets/foto.svg'
-// import Pem from '../../assets/pem.svg'
 
 function Banner() {
     return (

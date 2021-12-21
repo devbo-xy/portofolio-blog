@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react'
 import Logo from '../../assets/Logo.svg'
-import Mail from '../../assets/mail.svg'
-// import Mailblck from '../../assets/mailblack.svg'
 
 function About() {
 
