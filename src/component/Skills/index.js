@@ -23,7 +23,7 @@ function Skill() {
 
     return (
         <Fragment>
-            <div id="skills" className="min-h-screen bg-white2 dark:bg-drknav w-full py-20">
+            <div id="skills" className="min-h-screen bg-white2 dark:bg-drkpage w-full py-20">
                 <div className="text-center">
                     <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white1  px-5 py-3 border-6 border-text dark:border-white1 uppercase text-xl md:text-3xl font-bold">
                         Skills
