@@ -8,7 +8,7 @@ import Mail from '../../assets/mail.svg'
 function Footer() {
     return (
         <Fragment>
-            <footer className="relative bg-brand dark:bg-darkfrist ">
+            <footer className="relative bg-white dark:bg-darkfrist ">
                 <div className="container max-w-7xl mx-auto p-6">
                     <div className="w-full flex justify-center flex-col md:flex-row max-3-xl">
                         <div className="flex flex-row sm:flex-row ">

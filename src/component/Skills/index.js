@@ -13,6 +13,7 @@ import RJS from '../../assets/react.png'
 import ORC from '../../assets/oracle.svg'
 import AXD from '../../assets/adobexd.svg'
 import BD from '../../assets/blender.svg'
+import '../../App.css'
 
 function Skill() {
 
@@ -22,7 +23,7 @@ function Skill() {
 
     return (
         <Fragment>
-            <div id="skills" className="min-h-screen bg-white1 dark:bg-drkpage w-full py-20">
+            <div id="skills" className="min-h-screen bg-white2 dark:bg-drkpage w-full py-20">
                 <div className="text-center">
                     <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white1  px-5 py-3 border-6 border-text dark:border-white1 uppercase text-xl md:text-3xl font-bold">
                         Skills
@@ -124,7 +125,7 @@ function Skill() {
                     <div className="flex justify-start ml-5 mt-10 mb-5">
                         <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200 ">learning :</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 ">
                         <div
                             data-aos="zoom-in"
                             data-aos-duration="1800"
@@ -153,7 +154,7 @@ function Skill() {
                     <div className="flex justify-start ml-5 mt-10 mb-5">
                         <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200 ">other skills :</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 ">
                         <div
                             data-aos="zoom-in"
                             data-aos-duration="1800"

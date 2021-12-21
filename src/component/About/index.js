@@ -38,28 +38,23 @@ function About() {
                         data-aos-duration="2200"
                         className="flex flex-col max-w-3xl">
                         <p
-                            className="text-text lg:w-4/5 md:ml-48 font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
+                            className="text-text font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
                         >
                             I’m studying at Gunadarma University and majoring in Informatics
                             Engineering. I want to learn programmer language and i interest
                             too.
                         </p>
                         <div
-                            className="flex justify-end md:ml-10 mr-5 flex-col md:flex-row md:mt-28 mt-5 w-full"
+                            className="flex justify-start md:justify-end  flex-col md:flex-row md:mt-28 mt-5 w-full"
                         >
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
-                                className="px-8 py-2 mx-auto md:mx-0 flex justify-center md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
-                                <svg src={Mail}
+                                className="px-8 py-2 mx-auto ml-0 md:-mr-0 flex md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-end text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
+                                <img src={Mail}
                                     alt="pesan"
-                                    className="w-5 h-5 mr-3 text-center"
+                                    className="w-5 h-5 mr-3"
                                 >
-                                    {/* <svg
-                                        src={Mailblck}
-                                        alt="pesan"
-                                        className="">
-                                    </svg> */}
-                                </svg>
+                                </img>
                                 Email me
                             </a>
                         </div>
