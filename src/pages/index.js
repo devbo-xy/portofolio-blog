@@ -18,11 +18,11 @@ function Home() {
     return (
         <Fragment>
             <Navbar />
-            {/* <Banner /> */}
+            <Banner />
             <About />
-            {/* <Skill />
+            <Skill />
             <Projects />
-            <Footer /> */}
+            <Footer />
 
             {/* <div id="contact" className="min-h-screen w-full py-20 bg-white1 ">
                 <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
