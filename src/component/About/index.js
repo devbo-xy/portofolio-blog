@@ -32,7 +32,7 @@ function About() {
                             />
                         </div>
                     </div>
-                    <div
+                    {/* <div
                         data-aos="fade-left"
                         data-aos-duration="2200"
                         className="flex flex-col max-w-3xl justify-end w-full">
@@ -57,7 +57,7 @@ function About() {
                                 Email me
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* <div id="about"
