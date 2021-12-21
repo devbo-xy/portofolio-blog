@@ -8,7 +8,7 @@ function About() {
     return (
         <Fragment>
             <div id="about"
-                className="min-h-screen bg-white1 dark:bg-drkpage w-full py-20 inline-block"
+                className="min-h-screen bg-white dark:bg-drkpage w-full py-20 inline-block"
             >
                 <div className="text-center ">
                     <button
@@ -49,7 +49,7 @@ function About() {
                         >
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
-                                className="px-8 py-2 mx-auto ml-0 md:-mr-0 flex md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-end text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
+                                className="px-8 py-2 mx-auto flex md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-end text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
                                 <img src={Mail}
                                     alt="pesan"
                                     className="w-5 h-5 mr-3"

@@ -5,7 +5,7 @@ import Foto from '../../assets/foto.svg'
 function Banner() {
     return (
         <Fragment>
-            <div className="h-screen bg-white2 dark:bg-drkpage w-full py-20 overflow-hidden">
+            <div className="h-screen bg-white3 dark:bg-drkpage w-full py-20 overflow-hidden">
                 <div className="max-w-7xl mx-auto my-auto h-full items-center px-6 flex flex-col md:flex-row justify-evenly mt-24 md:mt-0">
                     <div
                         data-aos="fade-down"

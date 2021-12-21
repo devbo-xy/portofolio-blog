@@ -24,6 +24,7 @@ module.exports = {
         'io': '#FEFDFE',
         'white1': '#FBFBFB',
         'white2': '#FAFAFA',
+        'white3': '#F8F8F8',
         'text': '#242424',
         'text2': '#888888',
         'bg': '#F6F6F6',
