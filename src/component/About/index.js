@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Logo from '../../assets/Logo.svg'
+import Mail from '../../assets/mail.svg'
 
 function About() {
 
@@ -31,10 +32,11 @@ function About() {
                             />
                         </div>
                     </div>
-                    {/* <div
-                        data-aos="fade-left"
+                    <div
+                        data-aos="fade-down"
                         data-aos-duration="2200"
-                        className="flex flex-col max-w-3xl justify-end w-full">
+                        className="flex flex-col max-w-3xl justify-end mt-24 md:mt-0"
+                    >
                         <p
                             className="text-text lg:w-4/5 md:ml-48 font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
                         >
@@ -56,7 +58,7 @@ function About() {
                                 Email me
                             </a>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             {/* <div id="about"
