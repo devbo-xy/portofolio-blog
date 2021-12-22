@@ -7,7 +7,6 @@ import 'aos/dist/aos.css'
 function Navbar(props) {
 
     const [isOpen, setIsOpen] = useState(false)
-    // const [dark, setDark] = useState(false)
 
     const selectTheme = (value) => {
         localStorage.setItem('theme', value)
