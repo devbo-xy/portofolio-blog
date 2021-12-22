@@ -7,7 +7,7 @@ function About() {
     return (
         <Fragment>
             <div id="about"
-                className="min-h-screen bg-white1 dark:bg-drknav w-full py-20 flex flex-col"
+                className="h-screen bg-white1 dark:bg-drknav w-full py-20 flex flex-col"
             >
                 <div className="text-center ">
                     <button
@@ -38,7 +38,7 @@ function About() {
                         className="flex flex-col max-w-3xl justify-end mt-24 md:mt-0"
                     >
                         <p
-                            className="text-text lg:w-4/5 md:ml-48 font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
+                            className="text-text lg:w-4/5 md:ml-36 font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
                         >
                             I’m studying at Gunadarma University and majoring in Informatics
                             Engineering. I want to learn programmer language and i interest
@@ -49,7 +49,7 @@ function About() {
                         >
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
-                                className="px-8 py-2 mx-auto md:mx-0 flex justify-center text-end md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
+                                className="px-8 py-2 mx-auto md:mx-0 md:mr-2 flex justify-center text-end md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
                                 <img src={Mail}
                                     alt="pesan"
                                     className="w-5 h-5 mr-3 text-center"
