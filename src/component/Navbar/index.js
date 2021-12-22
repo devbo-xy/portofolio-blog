@@ -33,7 +33,7 @@ function Navbar(props) {
             props.setDark(false)
         }
         localStorage.removeItem('theme')
-    }, [props.dark])
+    });
 
     const mode = () => {
         props.dark ? props.setDark(false) : props.setDark(true)
