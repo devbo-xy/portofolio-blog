@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
 import Logo from '../../assets/Logo.svg'
 import Mail from '../../assets/mail.svg'
+import Mailblck from '../../assets/mailblack.svg'
 
-function About() {
+function About(props) {
 
     return (
         <Fragment>
@@ -19,7 +20,7 @@ function About() {
                     </button>
                 </div>
                 <div className="max-w-7xl mx-auto h-full items-center px-6 flex flex-col md:flex-row justify-end">
-                    <div className="flex flex-col md:flex-row justify-start text-center md:mt-0 mt-5 md:ml-3 ">
+                    <div className="flex flex-col md:flex-row md:justify-start text-center ">
                         <div
                             data-aos="fade-right"
                             data-aos-duration="2200"
@@ -35,7 +36,7 @@ function About() {
                     <div
                         data-aos="fade-down"
                         data-aos-duration="2200"
-                        className="flex flex-col max-w-3xl justify-end mt-24 md:mt-0"
+                        className="flex flex-col max-w-3xl justify-end"
                     >
                         <p
                             className="text-text lg:w-4/5 md:ml-36 font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
@@ -50,11 +51,10 @@ function About() {
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
                                 className="px-8 py-2 mx-auto md:mx-0 md:mr-2 flex justify-center text-end md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
-                                <img src={Mail}
+                                <img src={props.blck ? Mailblck : Mail}
                                     alt="pesan"
                                     className="w-5 h-5 mr-3 text-center"
-                                >
-                                </img>
+                                />
                                 Email me
                             </a>
                         </div>

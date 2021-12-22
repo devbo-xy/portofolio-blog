@@ -4,15 +4,15 @@ import '../../App.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-function Navbar() {
+function Navbar(props) {
 
     const [isOpen, setIsOpen] = useState(false)
-    const [dark, setDark] = useState(false)
+    // const [dark, setDark] = useState(false)
 
     const selectTheme = (value) => {
         localStorage.setItem('theme', value)
         const html = document.querySelector('html')
-        if (dark) {
+        if (props.dark) {
             html.classList.remove('dark')
             console.log("remove Light")
         } else {
@@ -28,17 +28,17 @@ function Navbar() {
     useEffect(() => {
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
-            setDark(true)
+            props.setDark(true)
         } else {
             document.documentElement.classList.add('light')
-            setDark(false)
+            props.setDark(false)
         }
         localStorage.removeItem('theme')
-    }, [])
+    }, [props.dark])
 
     const mode = () => {
-        dark ? setDark(false) : setDark(true)
-        dark ? selectTheme('light') : selectTheme('dark')
+        props.dark ? props.setDark(false) : props.setDark(true)
+        props.dark ? selectTheme('light') : selectTheme('dark')
     }
 
     return (
@@ -55,9 +55,9 @@ function Navbar() {
                             <div className="focus:outline-none flex space-x-3 lg:hidden">
                                 <button onClick={mode} className="focus:outline-none lg:hidden w-full h-full ">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
-                                        <path className={dark ? 'hidden' : 'block'} d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                                        <path className={props.dark ? 'hidden' : 'block'} d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 dark:text-white1 dark:hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
-                                            <path className={dark ? 'block' : 'hidden'} fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
+                                            <path className={props.dark ? 'block' : 'hidden'} fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
                                         </svg>
                                     </svg>
                                 </button>
@@ -81,9 +81,9 @@ function Navbar() {
                             <button onClick={mode}
                                 className="focus:outline-none hidden items-center text-lg uppercase px-4 py-5 lg:py-6 lg:inline-flex ">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
-                                    <path className={dark ? 'hidden' : 'block'} d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                                    <path className={props.dark ? 'hidden' : 'block'} d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 hover:text-brand dark:text-white dark:hover:text-brand" viewBox="0 0 20 20" fill="currentColor">
-                                        <path className={dark ? 'block' : 'hidden'} fillRule=" evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
+                                        <path className={props.dark ? 'block' : 'hidden'} fillRule=" evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
                                     </svg>
                                 </svg>
                             </button>

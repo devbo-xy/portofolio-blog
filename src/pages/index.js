@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import Navbar from '../component/Navbar'
 import Banner from '../component/Banner'
 import Skill from '../component/Skills'
@@ -11,18 +11,20 @@ import 'aos/dist/aos.css'
 
 function Home() {
 
+    const [dark, setDark] = useState(false)
+
     useEffect(() => {
         Aos.init({});
     }, []);
 
     return (
         <Fragment>
-            <Navbar />
+            <Navbar dark={dark} setDark={setDark} />
             <Banner />
-            <About />
+            <About blck={dark} />
             <Skill />
             <Projects />
-            <Footer />
+            <Footer fttr={dark} />
 
             {/* <div id="contact" className="min-h-screen w-full py-20 bg-white1 ">
                 <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
