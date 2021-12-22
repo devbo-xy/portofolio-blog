@@ -15,7 +15,7 @@ function Footer(props) {
         <Fragment>
             <footer className="relative bg-white3 dark:bg-drknav ">
                 <div className="container max-w-7xl mx-auto p-6">
-                    <div className="w-full flex justify-center flex-col md:flex-row max-3-xl">
+                    <div className="w-full flex justify-center flex-col sm:flex-row max-3-xl">
                         <div className="flex flex-row sm:flex-row ">
                             <a
                                 href="https://github.com/hanifakbari"

@@ -25,18 +25,22 @@ function Skill() {
         <Fragment>
             <div id="skills" className="min-h-screen bg-white2 dark:bg-drkpage w-full py-20">
                 <div className="text-center">
-                    <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white1  px-5 py-3 border-6 border-text dark:border-white1 uppercase text-xl md:text-3xl font-bold">
+                    <button data-aos="fade-up" data-aos-duration="1800" className="text-text dark:text-white1  px-5 py-3 border-6 border-text dark:border-white1 uppercase text-xl sm:text-3xl font-bold">
                         Skills
                     </button >
-                    <p data-aos="fade-up" data-aos-duration="2200" className="mt-5 text-text dark:text-white1 text-lg md:text-xl font-medium uppercase">
+                    <p data-aos="fade-up" data-aos-duration="2200" className="mt-5 text-text dark:text-white1 text-lg sm:text-xl font-medium uppercase">
                         Skill can be improved by practice.
                     </p>
                 </div>
-                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
-                    <div className="flex justify-start ml-5 mb-5">
+                <div className="max-w-3xl mx-auto my-auto px-10 sm:mt-10 mt-5 sm:px-2 py-5">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
+                        className="flex justify-start ml-5 mb-5"
+                    >
                         <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200">using now :</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                         <div
                             data-aos="zoom-in"
                             data-aos-duration="1800"
@@ -122,13 +126,17 @@ function Skill() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-start ml-5 mt-10 mb-5">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="1500"
+                        className="flex justify-start ml-5 mt-10 mb-5"
+                    >
                         <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200 ">learning :</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 ">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 ">
                         <div
                             data-aos="zoom-in"
-                            data-aos-duration="1800"
+                            data-aos-duration="1500"
                             className="w-full flex flex-col justify-center items-center"
                         >
                             <a rel="noreferrer" target="_blank" href="https://en.wikipedia.org/wiki/JavaScript" className="w-full h-full flex justify-center transition duration-700 ease-in-out transform hover:scale-125" >
@@ -151,10 +159,14 @@ function Skill() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-start ml-5 mt-10 mb-5">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-duration="1800"
+                        className="flex justify-start ml-5 mt-10 mb-5"
+                    >
                         <h1 className="uppercase font-bold text-xl text-text dark:text-gray-200 ">other skills :</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 ">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 ">
                         <div
                             data-aos="zoom-in"
                             data-aos-duration="1800"

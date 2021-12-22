@@ -14,13 +14,13 @@ function About(props) {
                     <button
                         data-aos="fade-up"
                         data-aos-duration="1800"
-                        className="text-text dark:text-white1 uppercase px-5 py-3 border-6 border-text dark:border-white1 text-xl md:text-3xl font-bold active:outline-none"
+                        className="text-text dark:text-white1 uppercase px-5 py-3 border-6 border-text dark:border-white1 text-xl sm:text-3xl font-bold active:outline-none"
                     >
                         About
                     </button>
                 </div>
-                <div className="max-w-7xl mx-auto h-full items-center px-6 flex flex-col md:flex-row justify-end">
-                    <div className="flex flex-col md:flex-row md:justify-start text-center ">
+                <div className="max-w-7xl mx-auto h-full items-center px-6 flex flex-col sm:flex-row justify-end">
+                    <div className="flex flex-col sm:flex-row sm:justify-start text-center ">
                         <div
                             data-aos="fade-right"
                             data-aos-duration="2200"
@@ -39,18 +39,18 @@ function About(props) {
                         className="flex flex-col max-w-3xl justify-end"
                     >
                         <p
-                            className="text-text lg:w-4/5 md:ml-36 font-medium dark:text-white text-lg md:text-xl items-center flex-col md:flex-row text-left md:text-right mt-20 md:mt-0"
+                            className="text-text lg:w-4/5 sm:ml-36 font-medium dark:text-white text-lg sm:text-xl items-center flex-col sm:flex-row text-left sm:text-right mt-20 sm:mt-0"
                         >
                             I’m studying at Gunadarma University and majoring in Informatics
                             Engineering. I want to learn programmer language and i interest
                             too.
                         </p>
                         <div
-                            className="flex justify-end flex-col md:flex-row md:mt-28 mt-5 w-full"
+                            className="flex justify-end flex-col sm:flex-row sm:mt-28 mt-5 w-full"
                         >
                             <a
                                 href="mailto:hanifakbri7@gmail.com"
-                                className="px-8 py-2 mx-auto md:mx-0 md:mr-2 flex justify-center text-end md:px-8 md:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
+                                className="px-8 py-2 mx-auto sm:mx-0 sm:mr-2 flex justify-center text-end sm:px-8 sm:py-3 uppercase text-sm font-bold bg-brand dark:bg-white1 shadow-4xl items-center text-white dark:text-text rounded-3xl transition duration-700 ease-in-out transform hover:scale-110">
                                 <img src={props.blck ? Mailblck : Mail}
                                     alt="pesan"
                                     className="w-5 h-5 mr-3 text-center"

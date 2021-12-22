@@ -13,11 +13,11 @@ function Projects() {
                     <button
                         data-aos="fade-up"
                         data-aos-duration="1800"
-                        className="text-text uppercase px-5 py-3 border-6 border-text dark:border-white1 dark:text-white1 text-xl md:text-3xl font-bold"
+                        className="text-text uppercase px-5 py-3 border-6 border-text dark:border-white1 dark:text-white1 text-xl sm:text-3xl font-bold"
                     >
                         projects
                     </button>
-                    <div className="md:max-w-xl max-w-none mt-5 mx-auto">
+                    <div className="sm:max-w-xl max-w-none mt-5 mx-auto">
                         <h1
                             data-aos="fade-up"
                             data-aos-duration="2200"
@@ -28,8 +28,8 @@ function Projects() {
                         </h1>
                     </div>
                 </div>
-                <div className="max-w-3xl mx-auto my-auto px-10 md:mt-10 mt-5 md:px-2 py-5">
-                    <div className="flex justify-center flex-col md:flex-row md:space-x-20 md:space-y-0 space-y-2">
+                <div className="max-w-3xl mx-auto my-auto px-10 sm:mt-10 mt-5 sm:px-2 py-5">
+                    <div className="flex justify-center flex-col sm:flex-row sm:space-x-20 sm:space-y-0 space-y-2">
                         <div
                             data-aos="zoom-in"
                             data-aos-duration="1800"
@@ -50,7 +50,7 @@ function Projects() {
                                 <h1 className="text-xl font-bold text-text uppercase dark:text-white">
                                     blockchainku
                                 </h1>
-                                <p className="text-md dark:text-gray-400 text-text2">2021 - 2022</p>
+                                <p className="text-sm dark:text-gray-400 text-text2">2021 - 2022</p>
                             </div>
                         </div>
                         <div
@@ -73,7 +73,7 @@ function Projects() {
                                 <h1 className="text-xl font-bold text-text uppercase dark:text-white">
                                     portofolio
                                 </h1>
-                                <p className="text-md text-text2 dark:text-gray-400 ">2021 - 2022</p>
+                                <p className="text-sm text-text2 dark:text-gray-400 ">2021 - 2022</p>
                             </div>
                         </div>
                     </div>
