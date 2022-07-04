@@ -2,7 +2,7 @@ import Home from "../../pages/index";
 
 function App() {
   return (
-    <Home />
+    <Home style={{ transition: "0.5" }} />
   );
 }
 

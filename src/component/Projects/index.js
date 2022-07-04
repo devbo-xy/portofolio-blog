@@ -38,7 +38,7 @@ function Projects() {
                             <a
                                 rel="noreferrer"
                                 target="_blank"
-                                href="https://blockchainku.vercel.app/"
+                                href="# "
                             >
                                 <img
                                     src={BLCK}
